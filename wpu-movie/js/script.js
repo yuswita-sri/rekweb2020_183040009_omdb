@@ -5,7 +5,7 @@ function searchMovie(){
         type :'get',
         dataType : 'json',
         data: {
-            'apikey' : '294a788f',
+            'apikey' : '6c5e60a5',
             's' :$('#search-input').val()},
             success: function(result){
                 if(result.Response == "True"){
@@ -56,7 +56,7 @@ $('#movie-list').on('click', '.see-detail', function () {
         dataType: 'json',
         type: 'get',
         data: {
-            'apikey': '294a788f',
+            'apikey': '6c5e60a5',
             'i': $(this).data('id')
         },
         success: function (movie) {
